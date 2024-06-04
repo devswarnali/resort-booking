@@ -1,3 +1,3 @@
 # resort-booking
-Awesome resort are available here.
+Awesome resorts are available here.
 Book your own happiness
