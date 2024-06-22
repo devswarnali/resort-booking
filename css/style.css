@@ -957,6 +957,28 @@ img{
         height: 35px;
     }
 
+    .header .navbar-toggler-icon{
+        height: 1.1em;
+        width: 1.1em;
+    }
+
+    .header .navbar-toggler {
+        padding: 3px 6px 4px;
+        backdrop-filter: blur(20px);
+    }
+    
+    .header .nav-item{
+        width: 150px;
+        backdrop-filter: blur(2px);
+        margin-bottom: 2px;
+    }
+
+    .header .navbar-toggler:hover{
+        backdrop-filter: blur(10px);
+        border: 1px solid #000;
+        box-shadow: none;
+    }
+
     .discover-area {
         padding: 185px 0px 128px 0px;
     }
@@ -1007,9 +1029,18 @@ img{
         height: 32px;
     }
 
+    .header .navbar-toggler {
+        padding: 0px 6px 4px;
+        backdrop-filter: blur(25px);
+    }
+
     .header .navbar-toggler-icon{
         height: 0.8em;
         width: 0.8em;
+    }
+
+    .header .nav-item:hover{
+        backdrop-filter: blur(0px);
     }
 
     .front-page {
@@ -1072,15 +1103,6 @@ img{
 @media(max-width: 575px){
     .container{
         max-width: 100%;
-    }
-
-    .header .navbar-toggler{
-        padding: 2px 7px;
-    }
-
-    .header .navbar-toggler-icon{
-        height: 0.5em;
-        width: 0.5em;
     }
 
     h1 {
