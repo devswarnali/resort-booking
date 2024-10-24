@@ -1043,6 +1043,11 @@ img{
         box-shadow: 0 12px 30px -2px rgba(0, 0, 0, .1);
     }
 
+    .collapse:not(.show) {
+        transition: all .2s ease-in-out;
+        transform: translateX(100%);
+    }
+
     .submit-form{
         justify-content: center;
         margin-top: 20px;
@@ -1066,11 +1071,6 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .collapse:not(.show) {
-        transition: all .2s ease-in-out;
-        transform: translateX(100%);
     }
 
     .navbar-collapse .navbar-toggler-icon{
